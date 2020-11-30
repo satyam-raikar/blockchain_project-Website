@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #283440;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigator{
+  padding-top: 20px;
+  color: white !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #283440;
+
+}
+.navivation_buttons{
+  
+  color: white !important;
+  display: flex;
+  justify-content:  space-evenly;
+  align-items: center;
+  background-color: #283440;
+
+}
+.nav_buttons{
+  color: white !important; 
+}
+
+.logo{
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
 }

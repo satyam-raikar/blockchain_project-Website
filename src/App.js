@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import logo_white from './images/logo_white.png';
+
 import './App.css';
+import { Button } from '@material-ui/core';
+
+
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import NavBar from './Pages/NavBar';
+import Home from './Pages/Home' 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <NavBar />
+      <Home/>
+      
+      <footer>
+
+
+        <Button varient="filled">
+          test
+        </Button>
+        
+        
+      </footer>
+
     </div>
   );
 }
